@@ -1,0 +1,76 @@
+.bg {
+    background-color: pink;
+    /* for gradient background */
+    background: rgb(168, 115, 115);
+    background: linear-gradient(54deg, 
+    rgba(223, 209, 134, 1) 0%
+    rgba(224, 134, 37, 1) 38%
+    rgba(226, 223, 132, 1) 100%
+    );
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/836/089/small/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.font-sample {
+font-family:'Courier New', Courier, monospace;
+font-size: 12px;
+font-weight: bold;
+font-style: italic;
+background-color: beige;
+color: grey;}
+
+.text-sample {
+text-align: center;
+text-transform: lowercase;
+text-decoration: underline;
+font-size: 20px;
+}
+
+#spacing-sample {
+    letter-spacing: 3px;
+    line-height: 5;
+    text-indent: 20px;
+}
+
+#shadow-sample{
+    text-shadow:10px -5px 10px rgb(14, 15, 116);
+}
+
+/* text-shadow:
+    x-coordinate ||
+    y-coordinate ||
+    blur radius ||
+    color of the shadow
+ */
+
+ .box-model {
+    background-color: pink;
+    height: 100px;
+    width: 80px;
+    text-align: center;
+
+    padding: 20px 10px;
+
+    border-color: orchid;
+    border-width: 5px; 
+    border-style: solid;
+    border: 10px solid orange;
+    /* border: border-width || border-style || border-color */
+    border-top: 5px dotted purple;
+    border-bottom: 5px dashed green;
+    border-left: 5px double fuchsia;
+
+    margin: 50px;
+     /* 
+    == MARGIN & PADDING ==
+    1 value = applied to all 4 sides
+    2 value = top and bottom side || right and left side
+    3 value = top side || left and right side || bottom side
+    4 value = top side || right side || bottom side || left side 
+
+*/
+}
+ 

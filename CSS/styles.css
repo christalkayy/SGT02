@@ -1,0 +1,76 @@
+/* Universal Selector */
+* {
+   color: brown; 
+}
+
+/* Element Selector */
+p {
+ color: blue !important;
+}
+
+/* Class Selector */
+.parag1 {
+    color: rgb(21, 122, 88);
+}
+
+.box {
+    background-color: black;
+}
+
+/* class = to select multiple elements at the same time
+id = to select a unique single element */
+
+/* ID Selector */
+#parag2 {
+    color: grey;
+}
+#one {
+    color: purple;
+}
+#two {
+    color: yellow;
+}
+#three {
+    color:teal;
+}
+
+/* Attribute Selector */
+[href]{
+    color: orange;
+}
+a[href]{
+    color:violet;
+}
+a[href="www.example.com"]{
+    color: red;
+}
+
+a[href="www.example.com"]{
+    color: black;
+} /* cascading effect: will choose bottom as priority! */
+
+/* Grouping Selector */
+p, h2 {
+    font-size: medium;
+}
+
+.parag1, #parag2, h4 {
+ background-color: bisque;
+}
+
+/* Pseudo Classes */
+h4:hover {
+    color: black;
+    font-size: 20px;
+}
+
+/* Pseudo elements */
+h1::first-letter{
+    color: blue;
+}
+h1::before{
+    content: "Placed before h1";
+}
+h1::after{
+    content: "Placed after h1";
+}
